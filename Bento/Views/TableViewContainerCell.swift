@@ -3,7 +3,7 @@ import UIKit
 final class TableViewContainerCell: UITableViewCell {
     var containedView: UIView? {
         didSet {
-            containerViewDidChange(from: oldValue, to: containedView)
+            containedViewDidChange(from: oldValue, to: containedView)
         }
     }
 

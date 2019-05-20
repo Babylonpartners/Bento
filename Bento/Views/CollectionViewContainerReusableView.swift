@@ -3,7 +3,7 @@ import UIKit
 final class CollectionViewContainerReusableView: UICollectionReusableView {
     var containedView: UIView? {
         didSet {
-            containerViewDidChange(from: oldValue, to: containedView)
+            containedViewDidChange(from: oldValue, to: containedView)
         }
     }
 
