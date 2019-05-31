@@ -11,6 +11,14 @@
 		044329EA2229096E004EFB29 /* SignUpRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044329E92229096E004EFB29 /* SignUpRenderer.swift */; };
 		04C9A0842211967300C70E09 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9A0832211967300C70E09 /* SignUpViewController.swift */; };
 		04EBE74F222C031B002D38C4 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EBE74E222C031B002D38C4 /* Optional+Extension.swift */; };
+		1F0B1130229FA34600EC18EA /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7468960F2267643600363024 /* ReactiveSwift.framework */; };
+		1F0B1131229FA34600EC18EA /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7468960F2267643600363024 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F0B1134229FA35B00EC18EA /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7468960D2267643600363024 /* ReactiveCocoa.framework */; };
+		1F0B1135229FA35B00EC18EA /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7468960D2267643600363024 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F0B1136229FA35F00EC18EA /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0B112C229FA30F00EC18EA /* Result.framework */; };
+		1F0B1137229FA35F00EC18EA /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0B112C229FA30F00EC18EA /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F0B113A229FA36F00EC18EA /* FlexibleDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747523C82083A6660030CCAA /* FlexibleDiff.framework */; };
+		1F0B113B229FA36F00EC18EA /* FlexibleDiff.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 747523C82083A6660030CCAA /* FlexibleDiff.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		515F94097C1F82B7E5C2DE0C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515F9EAF847DD1D68DE3A48C /* Section.swift */; };
 		5829D269200FB092001E020D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5829D268200FB092001E020D /* AppDelegate.swift */; };
 		5829D26B200FB092001E020D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5829D26A200FB092001E020D /* ViewController.swift */; };
@@ -154,8 +162,6 @@
 		7448E8732266429D0036B2D6 /* StyleSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448E8722266429D0036B2D6 /* StyleSheetTests.swift */; };
 		7468960A2267607A00363024 /* DetailedDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746896092267607A00363024 /* DetailedDescription.swift */; };
 		7468960C2267629E00363024 /* DetailedDescriptionSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7468960B2267629E00363024 /* DetailedDescriptionSnapshotTests.swift */; };
-		7468960E2267643600363024 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7468960D2267643600363024 /* ReactiveCocoa.framework */; };
-		746896102267643600363024 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7468960F2267643600363024 /* ReactiveSwift.framework */; };
 		747523C72083A6660030CCAA /* FlexibleDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747523C82083A6660030CCAA /* FlexibleDiff.framework */; };
 		74CECF2C22675BD300EC6927 /* Bool+Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CECF2722675BD300EC6927 /* Bool+Assertions.swift */; };
 		74CECF2D22675BD300EC6927 /* NSLayoutConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CECF2822675BD300EC6927 /* NSLayoutConstraintExtensions.swift */; };
@@ -166,7 +172,6 @@
 		9A4DB3E1212CB3710079D5AE /* ChangesetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DB3E0212CB3710079D5AE /* ChangesetExtensions.swift */; };
 		9AF4786A21205E3100F87E21 /* Supplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4786921205E3100F87E21 /* Supplement.swift */; };
 		9AF4786C2120CA7500F87E21 /* BentoReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4786B2120CA7500F87E21 /* BentoReusableView.swift */; };
-		A6C9C8BD2180782500261906 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9C8B72180780E00261906 /* Result.framework */; };
 		A9509880661501C40B50E453 /* TableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950970749997A21E1BF7777 /* TableViewHeaderFooterView.swift */; };
 		A9509C4FC3664040FF3649CD /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95093DB10046D731018127D /* Node.swift */; };
 		A9509FB12CAD89179FAA03B0 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950967CC717BBF3B02B766D /* Box.swift */; };
@@ -204,6 +209,10 @@
 			dstSubfolderSpec = 10;
 			files = (
 				58FC4431207CF3CD00DA3614 /* Bento.framework in Embed Frameworks */,
+				1F0B1135229FA35B00EC18EA /* ReactiveCocoa.framework in Embed Frameworks */,
+				1F0B113B229FA36F00EC18EA /* FlexibleDiff.framework in Embed Frameworks */,
+				1F0B1131229FA34600EC18EA /* ReactiveSwift.framework in Embed Frameworks */,
+				1F0B1137229FA35F00EC18EA /* Result.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,8 +223,8 @@
 		044329E72229090E004EFB29 /* SignUpPresetner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresetner.swift; sourceTree = "<group>"; };
 		044329E92229096E004EFB29 /* SignUpRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRenderer.swift; sourceTree = "<group>"; };
 		04C9A0832211967300C70E09 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		04C9A0852211995D00C70E09 /* BentoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BentoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EBE74E222C031B002D38C4 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		1F0B112C229FA30F00EC18EA /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		515F9EAF847DD1D68DE3A48C /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		5829D265200FB092001E020D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5829D268200FB092001E020D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -375,7 +384,6 @@
 		74CECF2B22675BD300EC6927 /* With.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = With.swift; path = Common/With.swift; sourceTree = SOURCE_ROOT; };
 		9A3EF77F205D866F00D043AC /* AnyRenderableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyRenderableTests.swift; sourceTree = "<group>"; };
 		9A4DB3E0212CB3710079D5AE /* ChangesetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesetExtensions.swift; sourceTree = "<group>"; };
-		9A7846FA205D89C000FA597E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9A784700205EB5E000FA597E /* TestRenderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRenderable.swift; sourceTree = "<group>"; };
 		9A784702205EB61D00FA597E /* TestId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestId.swift; sourceTree = "<group>"; };
 		9AF4786921205E3100F87E21 /* Supplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supplement.swift; sourceTree = "<group>"; };
@@ -383,11 +391,6 @@
 		A6C9C8AE218072CD00261906 /* Framework.Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.Debug.xcconfig; sourceTree = "<group>"; };
 		A6C9C8AF218072CD00261906 /* Framework.Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.Base.xcconfig; sourceTree = "<group>"; };
 		A6C9C8B0218072CD00261906 /* Framework.Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.Release.xcconfig; sourceTree = "<group>"; };
-		A6C9C8B42180780E00261906 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/Bento-eondxvvtkrzdzbecwbypokilnrrj/Build/Products/Debug-iphoneos/ReactiveCocoa.framework"; sourceTree = "<group>"; };
-		A6C9C8B52180780E00261906 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/Bento-eondxvvtkrzdzbecwbypokilnrrj/Build/Products/Debug-iphoneos/ReactiveSwift.framework"; sourceTree = "<group>"; };
-		A6C9C8B62180780E00261906 /* ReactiveFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveFeedback.framework; path = "../../../Library/Developer/Xcode/DerivedData/Bento-eondxvvtkrzdzbecwbypokilnrrj/Build/Products/Debug-iphoneos/ReactiveFeedback.framework"; sourceTree = "<group>"; };
-		A6C9C8B72180780E00261906 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../Library/Developer/Xcode/DerivedData/Bento-eondxvvtkrzdzbecwbypokilnrrj/Build/Products/Debug-iphoneos/Result.framework"; sourceTree = "<group>"; };
-		A6C9C8B82180780E00261906 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../../Library/Developer/Xcode/DerivedData/Bento-eondxvvtkrzdzbecwbypokilnrrj/Build/Products/Debug-iphoneos/Kingfisher.framework"; sourceTree = "<group>"; };
 		A95093DB10046D731018127D /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		A950967CC717BBF3B02B766D /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		A950970749997A21E1BF7777 /* TableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeaderFooterView.swift; sourceTree = "<group>"; };
@@ -400,9 +403,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FC4430207CF3CD00DA3614 /* Bento.framework in Frameworks */,
-				7468960E2267643600363024 /* ReactiveCocoa.framework in Frameworks */,
-				746896102267643600363024 /* ReactiveSwift.framework in Frameworks */,
-				A6C9C8BD2180782500261906 /* Result.framework in Frameworks */,
+				1F0B1134229FA35B00EC18EA /* ReactiveCocoa.framework in Frameworks */,
+				1F0B113A229FA36F00EC18EA /* FlexibleDiff.framework in Frameworks */,
+				1F0B1130229FA34600EC18EA /* ReactiveSwift.framework in Frameworks */,
+				1F0B1136229FA35F00EC18EA /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -791,18 +795,12 @@
 		7D7D5AFB203495BA731D7A3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7468960D2267643600363024 /* ReactiveCocoa.framework */,
 				7468960F2267643600363024 /* ReactiveSwift.framework */,
-				7448E84B2266252F0036B2D6 /* FBSnapshotTestCase.framework */,
-				04C9A0852211995D00C70E09 /* BentoKit.framework */,
-				A6C9C8B62180780E00261906 /* ReactiveFeedback.framework */,
-				A6C9C8B82180780E00261906 /* Kingfisher.framework */,
-				A6C9C8B42180780E00261906 /* ReactiveCocoa.framework */,
-				A6C9C8B52180780E00261906 /* ReactiveSwift.framework */,
-				A6C9C8B72180780E00261906 /* Result.framework */,
-				74208FA22083B1F00062CC8D /* Nimble.framework */,
+				7468960D2267643600363024 /* ReactiveCocoa.framework */,
+				1F0B112C229FA30F00EC18EA /* Result.framework */,
 				747523C82083A6660030CCAA /* FlexibleDiff.framework */,
-				9A7846FA205D89C000FA597E /* XCTest.framework */,
+				7448E84B2266252F0036B2D6 /* FBSnapshotTestCase.framework */,
+				74208FA22083B1F00062CC8D /* Nimble.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1361,6 +1359,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.babylonhealth.Example;
@@ -1376,6 +1375,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.babylonhealth.Example;
